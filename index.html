@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App UI Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dark-light">
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+    </div>
+
+    <div class="app">
+        <div class="header">
+            <div class="menu-circle"></div>
+            <div class="header-menu">
+                <a class="menu-link is-active" href="#">Apps</a>
+                <a class="menu-link notify" href="#">Your work</a>
+                <a class="menu-link" href="#">Discover</a>
+                <a class="menu-link notify" href="#">Market</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="header-profile">
+                <img class="profile-img " src="imgs/Icon.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="left-side">
+                <div class="side-wrapper">
+                    <div class="side-title">Apps</div>
+
+                    <div class="side-menu">
+                        <a href="#">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            All Apps
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-repeat" aria-hidden="true"></i>Updates
+                            <span class="notification-number updates">3</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="side-wrapper">
+                    <div class="side-title">
+                        Categories
+                    </div>
+                    <div class="side-menu">
+                        <a href="#">
+                            <i class="fa fa-gamepad" aria-hidden="true"></i>
+                            Game
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                            Tutorial
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-book" aria-hidden="true"></i>Book
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-film" aria-hidden="true"></i>
+                            Movie
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-spotify" aria-hidden="true"></i>Music
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-newspaper-o" aria-hidden="true"></i>News
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="side-wrapper">
+                    <div class="side-title">Social Media</div>
+                    <div class="side-menu">
+                        <a href="#">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            Facebook
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            Youtube
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            Instagram
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            Twitter
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-snapchat-square" aria-hidden="true"></i>Snapchat
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main-header">
+                    <a href="#" class="menu-link-main">All Apps</a>
+                    <div class="header-menu">
+                        <a href="#" class="main-header-link is-active">
+                            Desktop
+                        </a>
+                        <a href="#" class="main-header-link">Mobile</a>
+                        <a href="#" class="main-header-link">Web</a>
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="content-wrapper-header">
+                        <div class="content-wrapper-context">
+                            <h3 class="img-content">
+                                <img src="imgs/Icon.jpg" alt="">
+                                Hey Coders
+                            </h3>
+                            <div class="content-text">Make sure to Subscribe for more tutorials just like this one</div>
+                            <button class="content-button">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <div class="content-section-title">Installed</div>
+                        <ul>
+                            <li class="game-soft">
+                                <div class="game-dev">
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Unity
+                                </div>
+                                <span class="status">
+                                    <span class="status-circle green"></span>
+                                    Updated
+                                </span>
+                                <div class="button-wrapper">
+                                    <button class="content-button status-button open">Open</button>
+                                    <div class="menu">
+                                        <button class="dropdown">
+                                            <ul>
+                                                <li><a href="#">Go to Discover</a></li>
+                                                <li><a href="#">Learn more</a></li>
+                                                <li><a href="#">Uninstall</a></li>
+                                            </ul>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="game-soft">
+                                <div class="game-dev">
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Unreal Engine
+                                </div>
+
+                                <span class="status">
+                                    <span class="status-circle"></span>
+                                    Update Available
+                                </span>
+                                <div class="button-wrapper">
+                                    <button class="content-button status-button">Update this app</button>
+                                    <div class="menu">
+                                        <button class="dropdown">
+                                            <ul>
+                                                <li><a href="#">Go to Discover</a></li>
+                                                <li><a href="#">Learn more</a></li>
+                                                <li><a href="#">Unintall</a></li>
+                                            </ul>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="game-soft">
+                                <div class="game-dev">
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Blender
+                                </div>
+                                <span class="status">
+                                    <span class="status-circle green"></span>
+                                    Updated
+                                </span>
+                                <div class="button-wrapper">
+                                    <div class="content-button status-button open">Open</div>
+                                    <div class="menu">
+                                        <button class="dropdown">
+                                            <ul>
+                                                <li><a href="#">Go to Discover</a></li>
+                                                <li><a href="#">Learn more</a></li>
+                                                <li><a href="#">Uninstall</a></li>
+                                            </ul>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-section">
+                        <div class="content-section-title">Apps in your plan</div>
+                        <div class="apps-card">
+                            <div class="app-card">
+                                <span>
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    3ds Max
+                                </span>
+                                <div class="app-card__subtext">computer graphics program for making 3D animations, models, games and images</div>
+                                <div class="app-card-buttons">
+                                    <button class="content-button status-button">Update</button>
+                                    <div class="menu"></div>
+                                </div>
+                            </div>
+                            <div class="app-card">
+                                <span>
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Zbrush
+                                </span>
+                                <div class="app-card__subtext">ZBrush is a digital sculpting tool that combines 3D/2.5D modeling, texturing and painting</div>
+                                <div class="app-card-buttons">
+                                    <button class="content-button status-button">Update</button>
+                                    <div class="menu"></div>
+                                </div>
+                            </div>
+                            <div class="app-card">
+                                <span>
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Substance painter
+                                </span>
+                                <div class="app-card__subtext">Allegorithmic's Substance Painter is an incredibly powerful 3D painting tool</div>
+                                <div class="app-card-buttons">
+                                    <button class="content-button status-button">Update</button>
+                                    <div class="menu"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-app"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body></html>
